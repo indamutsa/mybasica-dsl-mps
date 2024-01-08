@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:22055156-ca30-466f-91c2-5e973b224103(mybasica.sandbox)/2761760890071246762">
+    <file name="myTests.java">
+      <node id="2835046499767518554" at="7,29,8,29" concept="1" />
+      <node id="2835046499767518820" at="8,29,9,39" concept="1" />
+      <node id="2835046499767606965" at="13,30,14,28" concept="1" />
+      <node id="2835046499767518344" at="17,31,18,11" concept="0" />
+      <node id="2835046499767606944" at="18,11,19,12" concept="0" />
+      <node id="2835046499767606944" at="13,0,16,0" concept="2" trace="hello#()V" />
+      <node id="2835046499767518344" at="7,0,11,0" concept="2" trace="name#()V" />
+      <node id="2761760890071246762" at="17,0,21,0" concept="2" trace="runAll#()V" />
+      <scope id="2835046499767606944" at="13,30,14,28">
+        <var name="hi" id="2835046499767606965" />
+      </scope>
+      <scope id="2835046499767518344" at="7,29,9,39">
+        <var name="arsene" id="2835046499767518554" />
+        <var name="arsenedksj" id="2835046499767518820" />
+      </scope>
+      <scope id="2761760890071246762" at="17,31,19,12" />
+      <scope id="2835046499767606944" at="13,0,16,0" />
+      <scope id="2835046499767518344" at="7,0,11,0" />
+      <scope id="2761760890071246762" at="17,0,21,0" />
+      <unit id="2761760890071246762" at="6,0,22,0" name="mybasica.sandbox.myTests" />
+    </file>
+  </root>
+  <root nodeRef="r:22055156-ca30-466f-91c2-5e973b224103(mybasica.sandbox)/4458435806082523618">
+    <file name="workbook.java">
+      <node id="3620632208747011281" at="7,29,8,23" concept="1" />
+      <node id="3620632208747011421" at="8,23,9,23" concept="1" />
+      <node id="2835046499762138437" at="9,23,10,31" concept="1" />
+      <node id="2835046499762300785" at="10,31,11,18" concept="1" />
+      <node id="2835046499764749117" at="11,18,12,25" concept="1" />
+      <node id="4458435806082523618" at="7,0,17,0" concept="2" trace="Main#()V" />
+      <scope id="4458435806082523618" at="7,29,15,81">
+        <var name="bool" id="2835046499764749117" />
+        <var name="c" id="3620632208747011281" />
+        <var name="name" id="2835046499762138437" />
+        <var name="x" id="2835046499762300785" />
+        <var name="y" id="3620632208747011421" />
+      </scope>
+      <scope id="4458435806082523618" at="7,0,17,0" />
+      <unit id="4458435806082523618" at="6,0,18,0" name="mybasica.sandbox.workbook" />
+    </file>
+  </root>
+  <root nodeRef="r:22055156-ca30-466f-91c2-5e973b224103(mybasica.sandbox)/7465687649712764236">
+    <file name="SomeOtherTests.java">
+      <node id="7465687649712764237" at="12,31,13,12" concept="0" />
+      <node id="7465687649712949693" at="13,12,14,13" concept="0" />
+      <node id="7465687649712764237" at="7,0,9,0" concept="2" trace="name1#()V" />
+      <node id="7465687649712949693" at="10,0,12,0" concept="2" trace="name_1#()V" />
+      <node id="7465687649712764236" at="12,0,16,0" concept="2" trace="runAll#()V" />
+      <scope id="7465687649712764237" at="7,30,7,30" />
+      <scope id="7465687649712949693" at="10,31,10,31" />
+      <scope id="7465687649712764237" at="7,0,9,0" />
+      <scope id="7465687649712949693" at="10,0,12,0" />
+      <scope id="7465687649712764236" at="12,31,14,13" />
+      <scope id="7465687649712764236" at="12,0,16,0" />
+      <unit id="7465687649712764236" at="6,0,17,0" name="mybasica.sandbox.SomeOtherTests" />
+    </file>
+  </root>
+</debug-info>
+

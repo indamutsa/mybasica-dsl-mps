@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="205,0,215,0" name="mybasica.typesystem.TypesystemDescriptor$CONCEPTS" />
+      <unit at="17,0,216,0" name="mybasica.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:623432a5-9cef-4769-8359-ee5e617f0f7a(mybasica.typesystem)/4458435806083771179">
+    <file name="TypesystemDescriptor.java">
+      <node id="4458435806083771179" at="39,5,40,105" concept="6" />
+      <node id="4458435806083771179" at="40,105,41,55" concept="2" />
+      <node id="4458435806083771179" at="38,5,42,5" concept="0" />
+      <scope id="4458435806083771179" at="39,5,41,55">
+        <var name="nonTypesystemRule" id="4458435806083771179" />
+      </scope>
+    </file>
+    <file name="check_duplicateVariableNames_NonTypesystemRule.java">
+      <node id="4458435806083808149" at="28,132,29,70" concept="6" />
+      <node id="4458435806083820284" at="32,9,33,68" concept="6" />
+      <node id="4458435806083820284" at="33,68,34,292" concept="6" />
+      <node id="4458435806083824190" at="36,7,37,106" concept="2" />
+      <node id="4458435806083771179" at="40,50,41,43" concept="7" />
+      <node id="4458435806083771179" at="43,68,44,102" concept="7" />
+      <node id="4458435806083771179" at="46,30,47,17" concept="7" />
+      <node id="4458435806083771179" at="51,0,52,0" concept="9" trace="name$MnvL" />
+      <node id="4458435806083771179" at="55,0,56,0" concept="9" trace="BVariable$jk" />
+      <node id="4458435806083771179" at="56,0,57,0" concept="9" trace="BStatementContainer$L$" />
+      <node id="4458435806083771179" at="26,0,28,0" concept="1" trace="check_duplicateVariableNames_NonTypesystemRule#()V" />
+      <node id="4458435806083771179" at="40,0,43,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4458435806083771179" at="43,0,46,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="4458435806083771179" at="46,0,49,0" concept="5" trace="overrides#()Z" />
+      <node id="4458435806083820284" at="31,110,35,9" concept="0" />
+      <node id="4458435806083808287" at="30,175,36,7" concept="4" />
+      <node id="4458435806083804371" at="29,70,38,5" concept="3" />
+      <node id="4458435806083771179" at="28,0,40,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="4458435806083771179" at="26,59,26,59" />
+      <scope id="4458435806083771179" at="40,50,41,43" />
+      <scope id="4458435806083771179" at="43,68,44,102" />
+      <scope id="4458435806083771179" at="46,30,47,17" />
+      <scope id="4458435806083771179" at="26,0,28,0" />
+      <scope id="4458435806083820284" at="32,9,34,292">
+        <var name="_reporter_2309309498" id="4458435806083820284" />
+        <var name="errorTarget" id="4458435806083820284" />
+      </scope>
+      <scope id="4458435806083771179" at="40,0,43,0" />
+      <scope id="4458435806083771179" at="43,0,46,0">
+        <var name="argument" id="4458435806083771179" />
+      </scope>
+      <scope id="4458435806083771179" at="46,0,49,0" />
+      <scope id="4458435806083808289" at="31,110,35,9" />
+      <scope id="4458435806083804374" at="30,175,37,106" />
+      <scope id="4458435806083804371" at="29,70,38,5">
+        <var name="variable_" id="4458435806083804375" />
+      </scope>
+      <scope id="4458435806083771180" at="28,132,38,5">
+        <var name="varNames" id="4458435806083808152" />
+      </scope>
+      <scope id="4458435806083771179" at="28,0,40,0">
+        <var name="bStatementContainer" id="4458435806083771179" />
+        <var name="status" id="4458435806083771179" />
+        <var name="typeCheckingContext" id="4458435806083771179" />
+      </scope>
+      <unit id="4458435806083771179" at="50,0,53,0" name="mybasica.typesystem.check_duplicateVariableNames_NonTypesystemRule$PROPS" />
+      <unit id="4458435806083771179" at="54,0,58,0" name="mybasica.typesystem.check_duplicateVariableNames_NonTypesystemRule$CONCEPTS" />
+      <unit id="4458435806083771179" at="25,0,59,0" name="mybasica.typesystem.check_duplicateVariableNames_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:623432a5-9cef-4769-8359-ee5e617f0f7a(mybasica.typesystem)/4458435806083992336">
+    <file name="TypesystemDescriptor.java">
+      <node id="4458435806083992336" at="27,5,28,85" concept="6" />
+      <node id="4458435806083992336" at="28,85,29,47" concept="2" />
+      <node id="4458435806083992336" at="26,5,30,5" concept="0" />
+      <scope id="4458435806083992336" at="27,5,29,47">
+        <var name="inferenceRule" id="4458435806083992336" />
+      </scope>
+    </file>
+    <file name="typeof_NumberLiteral_InferenceRule.java">
+      <node id="4458435806083994795" at="20,5,21,55" concept="6" />
+      <node id="4458435806083994795" at="21,55,22,185" concept="6" />
+      <node id="4458435806083994795" at="22,185,23,387" concept="2" />
+      <node id="4458435806083992336" at="26,50,27,38" concept="7" />
+      <node id="4458435806083992336" at="29,68,30,102" concept="7" />
+      <node id="4458435806083992336" at="32,30,33,17" concept="7" />
+      <node id="4458435806083992336" at="37,0,38,0" concept="9" trace="BNumberLiteral$YN" />
+      <node id="4458435806083992336" at="17,0,19,0" concept="1" trace="typeof_NumberLiteral_InferenceRule#()V" />
+      <node id="4458435806083992336" at="26,0,29,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4458435806083992336" at="29,0,32,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="4458435806083992336" at="32,0,35,0" concept="5" trace="overrides#()Z" />
+      <node id="4458435806083994795" at="19,126,24,5" concept="0" />
+      <node id="4458435806083992336" at="19,0,26,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="4458435806083992336" at="17,47,17,47" />
+      <scope id="4458435806083992336" at="26,50,27,38" />
+      <scope id="4458435806083992336" at="29,68,30,102" />
+      <scope id="4458435806083992336" at="32,30,33,17" />
+      <scope id="4458435806083992336" at="17,0,19,0" />
+      <scope id="4458435806083994795" at="20,5,23,387">
+        <var name="_info_12389875345" id="4458435806083994795" />
+        <var name="_nodeToCheck_1029348928467" id="4458435806083994795" />
+      </scope>
+      <scope id="4458435806083992336" at="26,0,29,0" />
+      <scope id="4458435806083992336" at="29,0,32,0">
+        <var name="argument" id="4458435806083992336" />
+      </scope>
+      <scope id="4458435806083992336" at="32,0,35,0" />
+      <scope id="4458435806083992337" at="19,126,24,5" />
+      <scope id="4458435806083992336" at="19,0,26,0">
+        <var name="numberLiteral" id="4458435806083992336" />
+        <var name="status" id="4458435806083992336" />
+        <var name="typeCheckingContext" id="4458435806083992336" />
+      </scope>
+      <unit id="4458435806083992336" at="36,0,39,0" name="mybasica.typesystem.typeof_NumberLiteral_InferenceRule$CONCEPTS" />
+      <unit id="4458435806083992336" at="16,0,40,0" name="mybasica.typesystem.typeof_NumberLiteral_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:623432a5-9cef-4769-8359-ee5e617f0f7a(mybasica.typesystem)/4458435806084143124">
+    <file name="TypesystemDescriptor.java">
+      <node id="4458435806084143124" at="31,5,32,85" concept="6" />
+      <node id="4458435806084143124" at="32,85,33,47" concept="2" />
+      <node id="4458435806084143124" at="30,5,34,5" concept="0" />
+      <scope id="4458435806084143124" at="31,5,33,47">
+        <var name="inferenceRule" id="4458435806084143124" />
+      </scope>
+    </file>
+    <file name="typeof_StringLiteral_InferenceRule.java">
+      <node id="4458435806084145856" at="20,5,21,55" concept="6" />
+      <node id="4458435806084145856" at="21,55,22,185" concept="6" />
+      <node id="4458435806084145856" at="22,185,23,386" concept="2" />
+      <node id="4458435806084143124" at="26,50,27,38" concept="7" />
+      <node id="4458435806084143124" at="29,68,30,102" concept="7" />
+      <node id="4458435806084143124" at="32,30,33,17" concept="7" />
+      <node id="4458435806084143124" at="37,0,38,0" concept="9" trace="BStringLiteral$1M" />
+      <node id="4458435806084143124" at="17,0,19,0" concept="1" trace="typeof_StringLiteral_InferenceRule#()V" />
+      <node id="4458435806084143124" at="26,0,29,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4458435806084143124" at="29,0,32,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="4458435806084143124" at="32,0,35,0" concept="5" trace="overrides#()Z" />
+      <node id="4458435806084145856" at="19,126,24,5" concept="0" />
+      <node id="4458435806084143124" at="19,0,26,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="4458435806084143124" at="17,47,17,47" />
+      <scope id="4458435806084143124" at="26,50,27,38" />
+      <scope id="4458435806084143124" at="29,68,30,102" />
+      <scope id="4458435806084143124" at="32,30,33,17" />
+      <scope id="4458435806084143124" at="17,0,19,0" />
+      <scope id="4458435806084145856" at="20,5,23,386">
+        <var name="_info_12389875345" id="4458435806084145856" />
+        <var name="_nodeToCheck_1029348928467" id="4458435806084145856" />
+      </scope>
+      <scope id="4458435806084143124" at="26,0,29,0" />
+      <scope id="4458435806084143124" at="29,0,32,0">
+        <var name="argument" id="4458435806084143124" />
+      </scope>
+      <scope id="4458435806084143124" at="32,0,35,0" />
+      <scope id="4458435806084143125" at="19,126,24,5" />
+      <scope id="4458435806084143124" at="19,0,26,0">
+        <var name="status" id="4458435806084143124" />
+        <var name="stringLiteral" id="4458435806084143124" />
+        <var name="typeCheckingContext" id="4458435806084143124" />
+      </scope>
+      <unit id="4458435806084143124" at="36,0,39,0" name="mybasica.typesystem.typeof_StringLiteral_InferenceRule$CONCEPTS" />
+      <unit id="4458435806084143124" at="16,0,40,0" name="mybasica.typesystem.typeof_StringLiteral_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:623432a5-9cef-4769-8359-ee5e617f0f7a(mybasica.typesystem)/4458435806085618659">
+    <file name="TypesystemDescriptor.java">
+      <node id="4458435806085618659" at="23,5,24,88" concept="6" />
+      <node id="4458435806085618659" at="24,88,25,47" concept="2" />
+      <node id="4458435806085618659" at="22,5,26,5" concept="0" />
+      <scope id="4458435806085618659" at="23,5,25,47">
+        <var name="inferenceRule" id="4458435806085618659" />
+      </scope>
+    </file>
+    <file name="typeof_BinaryExpression_InferenceRule.java">
+      <node id="4458435806085638932" at="27,5,28,209" concept="6" />
+      <node id="4458435806085641698" at="31,11,32,218" concept="6" />
+      <node id="4458435806085625641" at="36,77,37,170" concept="2" />
+      <node id="4458435806085625641" at="37,170,38,0" concept="8" />
+      <node id="4458435806085669013" at="40,19,41,0" concept="8" />
+      <node id="4458435806085625226" at="43,19,44,72" concept="6" />
+      <node id="4458435806085625226" at="44,72,45,199" concept="6" />
+      <node id="4458435806085625226" at="45,199,46,250" concept="2" />
+      <node id="4458435806085672136" at="49,19,50,72" concept="6" />
+      <node id="4458435806085672136" at="50,72,51,199" concept="6" />
+      <node id="4458435806085672136" at="51,199,52,304" concept="2" />
+      <node id="4458435806085670349" at="54,19,55,78" concept="6" />
+      <node id="4458435806085670349" at="55,78,56,244" concept="6" />
+      <node id="4458435806085638799" at="64,5,65,0" concept="8" />
+      <node id="4458435806085618659" at="67,50,68,41" concept="7" />
+      <node id="4458435806085618659" at="70,68,71,102" concept="7" />
+      <node id="4458435806085618659" at="73,30,74,17" concept="7" />
+      <node id="4458435806085672155" at="76,89,77,76" concept="6" />
+      <node id="4458435806085672155" at="77,76,78,69" concept="2" />
+      <node id="4458435806085672155" at="78,69,79,26" concept="7" />
+      <node id="4458435806085618659" at="83,0,84,0" concept="9" trace="left$Sg7x" />
+      <node id="4458435806085618659" at="84,0,85,0" concept="9" trace="right$Sg_z" />
+      <node id="4458435806085618659" at="88,0,89,0" concept="9" trace="BBinaryExpression$TR" />
+      <node id="4458435806085618659" at="89,0,90,0" concept="9" trace="RuntimeErrorType$3c" />
+      <node id="4458435806085618659" at="93,0,94,0" concept="9" trace="errorText$leWQ" />
+      <node id="4458435806085618659" at="24,0,26,0" concept="1" trace="typeof_BinaryExpression_InferenceRule#()V" />
+      <node id="4458435806085618659" at="67,0,70,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4458435806085618659" at="70,0,73,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="4458435806085618659" at="73,0,76,0" concept="5" trace="overrides#()Z" />
+      <node id="4458435806085625641" at="36,0,40,0" concept="5" trace="produceWarning#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="4458435806085670349" at="53,19,57,19" concept="0" />
+      <node id="4458435806085625226" at="42,41,47,19" concept="0" />
+      <node id="4458435806085672136" at="48,24,53,19" concept="0" />
+      <node id="4458435806085672155" at="76,0,81,0" concept="10" trace="createRuntimeErrorType_601ywe_a1a0c0a0a2a0a0b0a1a0a0a0b0a1a0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085623463" at="34,33,40,19" concept="6" />
+      <node id="4458435806085670306" at="48,22,58,17" concept="0" />
+      <node id="4458435806085669057" at="41,0,58,17" concept="4" />
+      <node id="4458435806085641698" at="34,0,60,0" concept="5" trace="run#()V" />
+      <node id="4458435806085641698" at="32,218,60,115" concept="2" />
+      <node id="4458435806085641698" at="30,27,61,11" concept="0" />
+      <node id="4458435806085638932" at="30,0,63,0" concept="5" trace="run#()V" />
+      <node id="4458435806085638932" at="28,209,63,109" concept="2" />
+      <node id="4458435806085638932" at="26,129,64,5" concept="0" />
+      <node id="4458435806085618659" at="26,0,67,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="4458435806085618659" at="24,50,24,50" />
+      <scope id="4458435806085618659" at="67,50,68,41" />
+      <scope id="4458435806085618659" at="70,68,71,102" />
+      <scope id="4458435806085618659" at="73,30,74,17" />
+      <scope id="4458435806085618659" at="24,0,26,0" />
+      <scope id="4458435806085625641" at="36,77,38,0" />
+      <scope id="4458435806085670349" at="54,19,56,244">
+        <var name="_reporter_2309309498" id="4458435806085670349" />
+        <var name="errorTarget" id="4458435806085670349" />
+      </scope>
+      <scope id="4458435806085625226" at="43,19,46,250">
+        <var name="_info_12389875345" id="4458435806085625226" />
+        <var name="_nodeToCheck_1029348928467" id="4458435806085625226" />
+      </scope>
+      <scope id="4458435806085672136" at="49,19,52,304">
+        <var name="_info_12389875345" id="4458435806085672136" />
+        <var name="_nodeToCheck_1029348928467" id="4458435806085672136" />
+      </scope>
+      <scope id="4458435806085618659" at="67,0,70,0" />
+      <scope id="4458435806085618659" at="70,0,73,0">
+        <var name="argument" id="4458435806085618659" />
+      </scope>
+      <scope id="4458435806085618659" at="73,0,76,0" />
+      <scope id="4458435806085672155" at="76,89,79,26">
+        <var name="n0" id="4458435806085672155" />
+      </scope>
+      <scope id="4458435806085625641" at="36,0,40,0">
+        <var name="modelId" id="4458435806085625641" />
+        <var name="ruleId" id="4458435806085625641" />
+      </scope>
+      <scope id="4458435806085669059" at="42,41,47,19" />
+      <scope id="4458435806085672155" at="76,0,81,0" />
+      <scope id="4458435806085670307" at="48,24,57,19" />
+      <scope id="4458435806085641699" at="34,33,58,17">
+        <var name="resultType" id="4458435806085623466" />
+      </scope>
+      <scope id="4458435806085641698" at="34,0,60,0" />
+      <scope id="4458435806085641698" at="31,11,60,115">
+        <var name="rightType" id="4458435806085641698" />
+      </scope>
+      <scope id="4458435806085638934" at="30,27,61,11" />
+      <scope id="4458435806085638932" at="30,0,63,0" />
+      <scope id="4458435806085638932" at="27,5,63,109">
+        <var name="lefType" id="4458435806085638932" />
+      </scope>
+      <scope id="4458435806085618660" at="26,129,65,0" />
+      <scope id="4458435806085618659" at="26,0,67,0">
+        <var name="binaryExpression" id="4458435806085618659" />
+        <var name="status" id="4458435806085618659" />
+        <var name="typeCheckingContext" id="4458435806085618659" />
+      </scope>
+      <unit id="4458435806085618659" at="92,0,95,0" name="mybasica.typesystem.typeof_BinaryExpression_InferenceRule$PROPS" />
+      <unit id="4458435806085618659" at="82,0,86,0" name="mybasica.typesystem.typeof_BinaryExpression_InferenceRule$LINKS" />
+      <unit id="4458435806085618659" at="87,0,91,0" name="mybasica.typesystem.typeof_BinaryExpression_InferenceRule$CONCEPTS" />
+      <unit id="4458435806085625641" at="35,198,40,17" name="mybasica.typesystem.typeof_BinaryExpression_InferenceRule$1$1$1" />
+      <unit id="4458435806085641698" at="33,60,60,13" name="mybasica.typesystem.typeof_BinaryExpression_InferenceRule$1$1" />
+      <unit id="4458435806085638932" at="29,52,63,7" name="mybasica.typesystem.typeof_BinaryExpression_InferenceRule$1" />
+      <unit id="4458435806085618659" at="23,0,96,0" name="mybasica.typesystem.typeof_BinaryExpression_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:623432a5-9cef-4769-8359-ee5e617f0f7a(mybasica.typesystem)/4458435806085626286">
+    <file name="TypesystemDescriptor.java">
+      <node id="4458435806085626533" at="42,5,43,138" concept="2" />
+      <node id="4458435806085839580" at="43,138,44,128" concept="2" />
+      <node id="4458435806085840276" at="44,128,45,131" concept="2" />
+      <node id="4458435806085851535" at="45,131,46,138" concept="2" />
+      <node id="4458435806085996488" at="49,9,50,76" concept="2" />
+      <node id="4458435806085996488" at="50,76,51,64" concept="2" />
+      <node id="4458435806085996488" at="51,64,52,37" concept="2" />
+      <node id="4458435806085996488" at="52,37,53,34" concept="2" />
+      <node id="4458435806085996488" at="53,34,54,93" concept="2" />
+      <node id="4458435806085996488" at="54,93,55,52" concept="2" />
+      <node id="4458435806085996661" at="57,103,58,60" concept="7" />
+      <node id="4458435806085996488" at="61,75,62,63" concept="2" />
+      <node id="4458435806085996488" at="64,8,65,62" concept="2" />
+      <node id="4458435806085626518" at="69,80,70,66" concept="2" />
+      <node id="4458435806085626518" at="70,66,71,67" concept="2" />
+      <node id="4458435806085626518" at="71,67,72,40" concept="2" />
+      <node id="4458435806085626518" at="72,40,73,37" concept="2" />
+      <node id="4458435806085626518" at="73,37,74,38" concept="2" />
+      <node id="4458435806085626518" at="74,38,75,35" concept="2" />
+      <node id="4458435806085626518" at="75,35,76,34" concept="2" />
+      <node id="4458435806085626518" at="76,34,77,89" concept="2" />
+      <node id="4458435806085626518" at="77,89,78,48" concept="2" />
+      <node id="4458435806085626773" at="80,99,81,47" concept="7" />
+      <node id="4458435806085626518" at="84,71,85,59" concept="2" />
+      <node id="4458435806085626646" at="87,61,88,74" concept="6" />
+      <node id="4458435806085626646" at="88,74,89,28" concept="7" />
+      <node id="4458435806085626690" at="91,61,92,74" concept="6" />
+      <node id="4458435806085626690" at="92,74,93,28" concept="7" />
+      <node id="4458435806085626921" at="95,60,96,74" concept="6" />
+      <node id="4458435806085626921" at="96,74,97,28" concept="7" />
+      <node id="4458435806085839565" at="101,80,102,65" concept="2" />
+      <node id="4458435806085839565" at="102,65,103,66" concept="2" />
+      <node id="4458435806085839565" at="103,66,104,40" concept="2" />
+      <node id="4458435806085839565" at="104,40,105,37" concept="2" />
+      <node id="4458435806085839565" at="105,37,106,38" concept="2" />
+      <node id="4458435806085839565" at="106,38,107,35" concept="2" />
+      <node id="4458435806085839565" at="107,35,108,34" concept="2" />
+      <node id="4458435806085839565" at="108,34,109,89" concept="2" />
+      <node id="4458435806085839565" at="109,89,110,48" concept="2" />
+      <node id="4458435806085839931" at="112,99,113,47" concept="7" />
+      <node id="4458435806085839565" at="116,71,117,59" concept="2" />
+      <node id="4458435806085839772" at="119,60,120,73" concept="6" />
+      <node id="4458435806085839772" at="120,73,121,28" concept="7" />
+      <node id="4458435806085839843" at="123,60,124,73" concept="6" />
+      <node id="4458435806085839843" at="124,73,125,28" concept="7" />
+      <node id="4458435806085840109" at="127,60,128,74" concept="6" />
+      <node id="4458435806085840109" at="128,74,129,28" concept="7" />
+      <node id="4458435806085840261" at="133,80,134,65" concept="2" />
+      <node id="4458435806085840261" at="134,65,135,66" concept="2" />
+      <node id="4458435806085840261" at="135,66,136,40" concept="2" />
+      <node id="4458435806085840261" at="136,40,137,37" concept="2" />
+      <node id="4458435806085840261" at="137,37,138,38" concept="2" />
+      <node id="4458435806085840261" at="138,38,139,35" concept="2" />
+      <node id="4458435806085840261" at="139,35,140,34" concept="2" />
+      <node id="4458435806085840261" at="140,34,141,89" concept="2" />
+      <node id="4458435806085840261" at="141,89,142,48" concept="2" />
+      <node id="4458435806085840528" at="144,99,145,46" concept="7" />
+      <node id="4458435806085840261" at="148,71,149,59" concept="2" />
+      <node id="4458435806085840374" at="151,60,152,73" concept="6" />
+      <node id="4458435806085840374" at="152,73,153,28" concept="7" />
+      <node id="4458435806085840460" at="155,60,156,73" concept="6" />
+      <node id="4458435806085840460" at="156,73,157,28" concept="7" />
+      <node id="4458435806085840702" at="159,59,160,73" concept="6" />
+      <node id="4458435806085840702" at="160,73,161,28" concept="7" />
+      <node id="4458435806085851520" at="165,80,166,66" concept="2" />
+      <node id="4458435806085851520" at="166,66,167,67" concept="2" />
+      <node id="4458435806085851520" at="167,67,168,40" concept="2" />
+      <node id="4458435806085851520" at="168,40,169,37" concept="2" />
+      <node id="4458435806085851520" at="169,37,170,38" concept="2" />
+      <node id="4458435806085851520" at="170,38,171,35" concept="2" />
+      <node id="4458435806085851520" at="171,35,172,34" concept="2" />
+      <node id="4458435806085851520" at="172,34,173,89" concept="2" />
+      <node id="4458435806085851520" at="173,89,174,48" concept="2" />
+      <node id="4458435806085851744" at="176,99,177,47" concept="7" />
+      <node id="4458435806085851520" at="180,71,181,59" concept="2" />
+      <node id="4458435806085851642" at="183,61,184,74" concept="6" />
+      <node id="4458435806085851642" at="184,74,185,28" concept="7" />
+      <node id="4458435806085851686" at="187,61,188,74" concept="6" />
+      <node id="4458435806085851686" at="188,74,189,28" concept="7" />
+      <node id="4458435806085851900" at="191,60,192,74" concept="6" />
+      <node id="4458435806085851900" at="192,74,193,28" concept="7" />
+      <node id="4458435806085996593" at="196,69,197,71" concept="6" />
+      <node id="4458435806085996593" at="197,71,198,26" concept="7" />
+      <node id="4458435806085996713" at="200,67,201,71" concept="6" />
+      <node id="4458435806085996713" at="201,71,202,26" concept="7" />
+      <node id="4458435806085996488" at="57,0,60,0" concept="5" trace="getOperationType#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085626518" at="80,0,83,0" concept="5" trace="getOperationType#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085839565" at="112,0,115,0" concept="5" trace="getOperationType#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085840261" at="144,0,147,0" concept="5" trace="getOperationType#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085851520" at="176,0,179,0" concept="5" trace="getOperationType#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085996488" at="60,0,64,0" concept="5" trace="reportConflict#(Ljetbrains/mps/errors/IRuleConflictWarningProducer;)V" />
+      <node id="4458435806085626518" at="83,0,87,0" concept="5" trace="reportConflict#(Ljetbrains/mps/errors/IRuleConflictWarningProducer;)V" />
+      <node id="4458435806085626646" at="87,0,91,0" concept="10" trace="createBIntegerType_3ist9o_a0a0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085626690" at="91,0,95,0" concept="10" trace="createBIntegerType_3ist9o_a0b0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085626921" at="95,0,99,0" concept="10" trace="createBBooleanType_3ist9o_a0a1b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085839565" at="115,0,119,0" concept="5" trace="reportConflict#(Ljetbrains/mps/errors/IRuleConflictWarningProducer;)V" />
+      <node id="4458435806085839772" at="119,0,123,0" concept="10" trace="createBStringType_3ist9o_a0a0a2#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085839843" at="123,0,127,0" concept="10" trace="createBStringType_3ist9o_a0b0a2#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085840109" at="127,0,131,0" concept="10" trace="createBBooleanType_3ist9o_a0a1c#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085840261" at="147,0,151,0" concept="5" trace="reportConflict#(Ljetbrains/mps/errors/IRuleConflictWarningProducer;)V" />
+      <node id="4458435806085840374" at="151,0,155,0" concept="10" trace="createBStringType_3ist9o_a0a0a3#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085840460" at="155,0,159,0" concept="10" trace="createBStringType_3ist9o_a0b0a3#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085840702" at="159,0,163,0" concept="10" trace="createBStringType_3ist9o_a0a1d#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085851520" at="179,0,183,0" concept="5" trace="reportConflict#(Ljetbrains/mps/errors/IRuleConflictWarningProducer;)V" />
+      <node id="4458435806085851642" at="183,0,187,0" concept="10" trace="createBIntegerType_3ist9o_a0a0a4#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085851686" at="187,0,191,0" concept="10" trace="createBIntegerType_3ist9o_a0b0a4#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085851900" at="191,0,195,0" concept="10" trace="createBIntegerType_3ist9o_a0a1e#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085996593" at="196,0,200,0" concept="10" trace="createBStringType_3ist9o_a0a0a0a0a0a0a01a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085996713" at="200,0,204,0" concept="10" trace="createBStringType_3ist9o_a0a1a0a0a0a0k0a#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4458435806085626518" at="69,0,80,0" concept="1" trace="CustomOverloadedOperationsTypesProvider_a#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)V" />
+      <node id="4458435806085839565" at="101,0,112,0" concept="1" trace="CustomOverloadedOperationsTypesProvider_b#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)V" />
+      <node id="4458435806085840261" at="133,0,144,0" concept="1" trace="CustomOverloadedOperationsTypesProvider_c#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)V" />
+      <node id="4458435806085851520" at="165,0,176,0" concept="1" trace="CustomOverloadedOperationsTypesProvider_d#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)V" />
+      <node id="4458435806085996488" at="47,5,64,8" concept="6" />
+      <node id="4458435806085996488" at="46,138,66,5" concept="0" />
+      <scope id="4458435806085996498" at="57,103,58,60" />
+      <scope id="4458435806085996488" at="61,75,62,63" />
+      <scope id="4458435806085626543" at="80,99,81,47" />
+      <scope id="4458435806085626518" at="84,71,85,59" />
+      <scope id="4458435806085839590" at="112,99,113,47" />
+      <scope id="4458435806085839565" at="116,71,117,59" />
+      <scope id="4458435806085840286" at="144,99,145,46" />
+      <scope id="4458435806085840261" at="148,71,149,59" />
+      <scope id="4458435806085851545" at="176,99,177,47" />
+      <scope id="4458435806085851520" at="180,71,181,59" />
+      <scope id="4458435806085626646" at="87,61,89,28">
+        <var name="n0" id="4458435806085626646" />
+      </scope>
+      <scope id="4458435806085626690" at="91,61,93,28">
+        <var name="n0" id="4458435806085626690" />
+      </scope>
+      <scope id="4458435806085626921" at="95,60,97,28">
+        <var name="n0" id="4458435806085626921" />
+      </scope>
+      <scope id="4458435806085839772" at="119,60,121,28">
+        <var name="n0" id="4458435806085839772" />
+      </scope>
+      <scope id="4458435806085839843" at="123,60,125,28">
+        <var name="n0" id="4458435806085839843" />
+      </scope>
+      <scope id="4458435806085840109" at="127,60,129,28">
+        <var name="n0" id="4458435806085840109" />
+      </scope>
+      <scope id="4458435806085840374" at="151,60,153,28">
+        <var name="n0" id="4458435806085840374" />
+      </scope>
+      <scope id="4458435806085840460" at="155,60,157,28">
+        <var name="n0" id="4458435806085840460" />
+      </scope>
+      <scope id="4458435806085840702" at="159,59,161,28">
+        <var name="n0" id="4458435806085840702" />
+      </scope>
+      <scope id="4458435806085851642" at="183,61,185,28">
+        <var name="n0" id="4458435806085851642" />
+      </scope>
+      <scope id="4458435806085851686" at="187,61,189,28">
+        <var name="n0" id="4458435806085851686" />
+      </scope>
+      <scope id="4458435806085851900" at="191,60,193,28">
+        <var name="n0" id="4458435806085851900" />
+      </scope>
+      <scope id="4458435806085996593" at="196,69,198,26">
+        <var name="n0" id="4458435806085996593" />
+      </scope>
+      <scope id="4458435806085996713" at="200,67,202,26">
+        <var name="n0" id="4458435806085996713" />
+      </scope>
+      <scope id="4458435806085996488" at="57,0,60,0">
+        <var name="leftOperandType" id="4458435806085996488" />
+        <var name="operation" id="4458435806085996488" />
+        <var name="rightOperandType" id="4458435806085996488" />
+      </scope>
+      <scope id="4458435806085626518" at="80,0,83,0">
+        <var name="leftOperandType" id="4458435806085626518" />
+        <var name="operation" id="4458435806085626518" />
+        <var name="rightOperandType" id="4458435806085626518" />
+      </scope>
+      <scope id="4458435806085839565" at="112,0,115,0">
+        <var name="leftOperandType" id="4458435806085839565" />
+        <var name="operation" id="4458435806085839565" />
+        <var name="rightOperandType" id="4458435806085839565" />
+      </scope>
+      <scope id="4458435806085840261" at="144,0,147,0">
+        <var name="leftOperandType" id="4458435806085840261" />
+        <var name="operation" id="4458435806085840261" />
+        <var name="rightOperandType" id="4458435806085840261" />
+      </scope>
+      <scope id="4458435806085851520" at="176,0,179,0">
+        <var name="leftOperandType" id="4458435806085851520" />
+        <var name="operation" id="4458435806085851520" />
+        <var name="rightOperandType" id="4458435806085851520" />
+      </scope>
+      <scope id="4458435806085996488" at="60,0,64,0">
+        <var name="producer" id="4458435806085996488" />
+      </scope>
+      <scope id="4458435806085626518" at="83,0,87,0">
+        <var name="producer" id="4458435806085626518" />
+      </scope>
+      <scope id="4458435806085626646" at="87,0,91,0" />
+      <scope id="4458435806085626690" at="91,0,95,0" />
+      <scope id="4458435806085626921" at="95,0,99,0" />
+      <scope id="4458435806085839565" at="115,0,119,0">
+        <var name="producer" id="4458435806085839565" />
+      </scope>
+      <scope id="4458435806085839772" at="119,0,123,0" />
+      <scope id="4458435806085839843" at="123,0,127,0" />
+      <scope id="4458435806085840109" at="127,0,131,0" />
+      <scope id="4458435806085840261" at="147,0,151,0">
+        <var name="producer" id="4458435806085840261" />
+      </scope>
+      <scope id="4458435806085840374" at="151,0,155,0" />
+      <scope id="4458435806085840460" at="155,0,159,0" />
+      <scope id="4458435806085840702" at="159,0,163,0" />
+      <scope id="4458435806085851520" at="179,0,183,0">
+        <var name="producer" id="4458435806085851520" />
+      </scope>
+      <scope id="4458435806085851642" at="183,0,187,0" />
+      <scope id="4458435806085851686" at="187,0,191,0" />
+      <scope id="4458435806085851900" at="191,0,195,0" />
+      <scope id="4458435806085996593" at="196,0,200,0" />
+      <scope id="4458435806085996713" at="200,0,204,0" />
+      <scope id="4458435806085996488" at="49,9,55,52" />
+      <scope id="4458435806085626518" at="69,80,78,48" />
+      <scope id="4458435806085839565" at="101,80,110,48" />
+      <scope id="4458435806085840261" at="133,80,142,48" />
+      <scope id="4458435806085851520" at="165,80,174,48" />
+      <scope id="4458435806085626518" at="69,0,80,0">
+        <var name="concept" id="4458435806085626518" />
+      </scope>
+      <scope id="4458435806085839565" at="101,0,112,0">
+        <var name="concept" id="4458435806085839565" />
+      </scope>
+      <scope id="4458435806085840261" at="133,0,144,0">
+        <var name="concept" id="4458435806085840261" />
+      </scope>
+      <scope id="4458435806085851520" at="165,0,176,0">
+        <var name="concept" id="4458435806085851520" />
+      </scope>
+      <scope id="4458435806085996488" at="47,5,65,62">
+        <var name="provider" id="4458435806085996488" />
+      </scope>
+      <unit id="4458435806085996488" at="48,60,64,7" name="mybasica.typesystem.TypesystemDescriptor$1" />
+      <unit id="4458435806085626518" at="68,0,100,0" name="mybasica.typesystem.TypesystemDescriptor$CustomOverloadedOperationsTypesProvider_a" />
+      <unit id="4458435806085839565" at="100,0,132,0" name="mybasica.typesystem.TypesystemDescriptor$CustomOverloadedOperationsTypesProvider_b" />
+      <unit id="4458435806085840261" at="132,0,164,0" name="mybasica.typesystem.TypesystemDescriptor$CustomOverloadedOperationsTypesProvider_c" />
+      <unit id="4458435806085851520" at="164,0,196,0" name="mybasica.typesystem.TypesystemDescriptor$CustomOverloadedOperationsTypesProvider_d" />
+    </file>
+  </root>
+  <root nodeRef="r:623432a5-9cef-4769-8359-ee5e617f0f7a(mybasica.typesystem)/4458435806086008103">
+    <file name="TypesystemDescriptor.java">
+      <node id="4458435806086008103" at="35,5,36,80" concept="6" />
+      <node id="4458435806086008103" at="36,80,37,47" concept="2" />
+      <node id="4458435806086008103" at="34,5,38,5" concept="0" />
+      <scope id="4458435806086008103" at="35,5,37,47">
+        <var name="inferenceRule" id="4458435806086008103" />
+      </scope>
+    </file>
+    <file name="typeof_Variable_InferenceRule.java">
+      <node id="4458435806087675416" at="22,7,23,52" concept="6" />
+      <node id="4458435806087675416" at="23,52,24,187" concept="6" />
+      <node id="4458435806087675416" at="24,187,25,288" concept="2" />
+      <node id="4458435806087841965" at="28,9,29,99" concept="6" />
+      <node id="4458435806087841965" at="29,99,30,189" concept="6" />
+      <node id="4458435806087841965" at="30,189,31,312" concept="2" />
+      <node id="4458435806086009621" at="35,7,36,52" concept="6" />
+      <node id="4458435806086009621" at="36,52,37,187" concept="6" />
+      <node id="4458435806086009621" at="37,187,38,401" concept="2" />
+      <node id="4458435806086008103" at="42,50,43,33" concept="7" />
+      <node id="4458435806086008103" at="45,68,46,102" concept="7" />
+      <node id="4458435806086008103" at="48,30,49,17" concept="7" />
+      <node id="4458435806086008103" at="53,0,54,0" concept="9" trace="declaredType$eHJQ" />
+      <node id="4458435806086008103" at="54,0,55,0" concept="9" trace="value$u7jp" />
+      <node id="4458435806086008103" at="58,0,59,0" concept="9" trace="BVariable$jk" />
+      <node id="4458435806086008103" at="18,0,20,0" concept="1" trace="typeof_Variable_InferenceRule#()V" />
+      <node id="4458435806086008103" at="42,0,45,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4458435806086008103" at="45,0,48,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="4458435806086008103" at="48,0,51,0" concept="5" trace="overrides#()Z" />
+      <node id="4458435806087675416" at="21,79,26,7" concept="0" />
+      <node id="4458435806087841965" at="27,61,32,9" concept="0" />
+      <node id="4458435806086009621" at="34,12,39,7" concept="0" />
+      <node id="4458435806087677395" at="34,10,40,5" concept="0" />
+      <node id="4458435806087841965" at="26,7,33,7" concept="4" />
+      <node id="4458435806087669835" at="20,121,40,5" concept="4" />
+      <node id="4458435806086008103" at="20,0,42,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="4458435806086008103" at="18,42,18,42" />
+      <scope id="4458435806086008103" at="42,50,43,33" />
+      <scope id="4458435806086008103" at="45,68,46,102" />
+      <scope id="4458435806086008103" at="48,30,49,17" />
+      <scope id="4458435806086008103" at="18,0,20,0" />
+      <scope id="4458435806087675416" at="22,7,25,288">
+        <var name="_info_12389875345" id="4458435806087675416" />
+        <var name="_nodeToCheck_1029348928467" id="4458435806087675416" />
+      </scope>
+      <scope id="4458435806087841965" at="28,9,31,312">
+        <var name="_info_12389875345" id="4458435806087841965" />
+        <var name="_nodeToCheck_1029348928467" id="4458435806087841965" />
+      </scope>
+      <scope id="4458435806086009621" at="35,7,38,401">
+        <var name="_info_12389875345" id="4458435806086009621" />
+        <var name="_nodeToCheck_1029348928467" id="4458435806086009621" />
+      </scope>
+      <scope id="4458435806086008103" at="42,0,45,0" />
+      <scope id="4458435806086008103" at="45,0,48,0">
+        <var name="argument" id="4458435806086008103" />
+      </scope>
+      <scope id="4458435806086008103" at="48,0,51,0" />
+      <scope id="4458435806087841965" at="27,61,32,9" />
+      <scope id="4458435806087677396" at="34,12,39,7" />
+      <scope id="4458435806087669837" at="21,79,33,7" />
+      <scope id="4458435806086008104" at="20,121,40,5" />
+      <scope id="4458435806086008103" at="20,0,42,0">
+        <var name="status" id="4458435806086008103" />
+        <var name="typeCheckingContext" id="4458435806086008103" />
+        <var name="variable" id="4458435806086008103" />
+      </scope>
+      <unit id="4458435806086008103" at="57,0,60,0" name="mybasica.typesystem.typeof_Variable_InferenceRule$CONCEPTS" />
+      <unit id="4458435806086008103" at="52,0,56,0" name="mybasica.typesystem.typeof_Variable_InferenceRule$LINKS" />
+      <unit id="4458435806086008103" at="17,0,61,0" name="mybasica.typesystem.typeof_Variable_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:623432a5-9cef-4769-8359-ee5e617f0f7a(mybasica.typesystem)/8856941154952607323">
+    <file name="TypesystemDescriptor.java">
+      <node id="8856941154952607323" at="19,5,20,90" concept="6" />
+      <node id="8856941154952607323" at="20,90,21,47" concept="2" />
+      <node id="8856941154952607323" at="18,33,22,5" concept="0" />
+      <scope id="8856941154952607323" at="19,5,21,47">
+        <var name="inferenceRule" id="8856941154952607323" />
+      </scope>
+    </file>
+    <file name="typeof_BVariableReference_InferenceRule.java">
+      <node id="8856941154952608837" at="21,5,22,60" concept="6" />
+      <node id="8856941154952608837" at="22,60,23,185" concept="6" />
+      <node id="8856941154952608837" at="23,185,24,412" concept="2" />
+      <node id="8856941154952607323" at="27,50,28,42" concept="7" />
+      <node id="8856941154952607323" at="30,68,31,102" concept="7" />
+      <node id="8856941154952607323" at="33,30,34,17" concept="7" />
+      <node id="8856941154952607323" at="38,0,39,0" concept="9" trace="variable$QDW2" />
+      <node id="8856941154952607323" at="42,0,43,0" concept="9" trace="BVariableReference$H2" />
+      <node id="8856941154952607323" at="18,0,20,0" concept="1" trace="typeof_BVariableReference_InferenceRule#()V" />
+      <node id="8856941154952607323" at="27,0,30,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8856941154952607323" at="30,0,33,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="8856941154952607323" at="33,0,36,0" concept="5" trace="overrides#()Z" />
+      <node id="8856941154952608837" at="20,131,25,5" concept="0" />
+      <node id="8856941154952607323" at="20,0,27,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="8856941154952607323" at="18,52,18,52" />
+      <scope id="8856941154952607323" at="27,50,28,42" />
+      <scope id="8856941154952607323" at="30,68,31,102" />
+      <scope id="8856941154952607323" at="33,30,34,17" />
+      <scope id="8856941154952607323" at="18,0,20,0" />
+      <scope id="8856941154952608837" at="21,5,24,412">
+        <var name="_info_12389875345" id="8856941154952608837" />
+        <var name="_nodeToCheck_1029348928467" id="8856941154952608837" />
+      </scope>
+      <scope id="8856941154952607323" at="27,0,30,0" />
+      <scope id="8856941154952607323" at="30,0,33,0">
+        <var name="argument" id="8856941154952607323" />
+      </scope>
+      <scope id="8856941154952607323" at="33,0,36,0" />
+      <scope id="8856941154952607324" at="20,131,25,5" />
+      <scope id="8856941154952607323" at="20,0,27,0">
+        <var name="bVariableReference" id="8856941154952607323" />
+        <var name="status" id="8856941154952607323" />
+        <var name="typeCheckingContext" id="8856941154952607323" />
+      </scope>
+      <unit id="8856941154952607323" at="37,0,40,0" name="mybasica.typesystem.typeof_BVariableReference_InferenceRule$LINKS" />
+      <unit id="8856941154952607323" at="41,0,44,0" name="mybasica.typesystem.typeof_BVariableReference_InferenceRule$CONCEPTS" />
+      <unit id="8856941154952607323" at="17,0,45,0" name="mybasica.typesystem.typeof_BVariableReference_InferenceRule" />
+    </file>
+  </root>
+</debug-info>
+

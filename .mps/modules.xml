@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/complex.datatypes.language/complex.datatypes.language.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/mybasica.sandbox/mybasica.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/mybasica/mybasica.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/myetesta.language/myetesta.language.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/javalang.example/javalang.example.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/mybasica.test/mybasica.test.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

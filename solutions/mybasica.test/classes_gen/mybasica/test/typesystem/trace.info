@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:d2add095-749f-4fbe-82d5-4923be229b2f(mybasica.test.typesystem@tests)/1093001149131510331">
+    <file name="types_Test.java">
+      <node id="1093001149131510331" at="32,23,33,25" concept="6" />
+      <node id="4560166870162694632" at="37,54,38,45" concept="1" />
+      <node id="4560166870162659904" at="41,77,42,68" concept="1" />
+      <node id="1093001149131521712" at="45,91,46,82" concept="1" />
+      <node id="4560166870162648700" at="49,73,50,64" concept="1" />
+      <node id="4560166870162652727" at="53,89,54,80" concept="1" />
+      <node id="4560166870162675706" at="57,77,58,68" concept="1" />
+      <node id="4560166870162687813" at="61,78,62,69" concept="1" />
+      <node id="4560166870162667009" at="65,77,66,68" concept="1" />
+      <node id="1093001149131510331" at="71,52,72,19" concept="6" />
+      <node id="1093001149131510336" at="76,30,77,43" concept="1" />
+      <node id="4560166870162666594" at="77,43,78,43" concept="1" />
+      <node id="4560166870162694646" at="78,43,79,43" concept="1" />
+      <node id="4560166870163715095" at="81,30,82,133" concept="1" />
+      <node id="4560166870163916026" at="82,133,83,147" concept="1" />
+      <node id="4560166870162659904" at="86,79,87,0" concept="4" />
+      <node id="4560166870162659904" at="88,30,89,67" concept="3" />
+      <node id="4560166870162659904" at="89,67,90,65" concept="3" />
+      <node id="4560166870162659904" at="90,65,91,209" concept="1" />
+      <node id="1093001149131521712" at="94,93,95,0" concept="4" />
+      <node id="1093001149131521712" at="96,30,97,67" concept="3" />
+      <node id="1093001149131521712" at="97,67,98,65" concept="3" />
+      <node id="1093001149131521712" at="98,65,99,290" concept="1" />
+      <node id="4560166870162648700" at="102,75,103,0" concept="4" />
+      <node id="4560166870162648700" at="104,30,105,67" concept="3" />
+      <node id="4560166870162648700" at="105,67,106,65" concept="3" />
+      <node id="4560166870162648700" at="106,65,107,177" concept="1" />
+      <node id="4560166870162652727" at="110,91,111,0" concept="4" />
+      <node id="4560166870162652727" at="112,30,113,67" concept="3" />
+      <node id="4560166870162652727" at="113,67,114,65" concept="3" />
+      <node id="4560166870162652727" at="114,65,115,290" concept="1" />
+      <node id="4560166870162675706" at="118,79,119,0" concept="4" />
+      <node id="4560166870162675706" at="120,30,121,67" concept="3" />
+      <node id="4560166870162675706" at="121,67,122,65" concept="3" />
+      <node id="4560166870162675706" at="122,65,123,1016" concept="1" />
+      <node id="4560166870162687813" at="126,80,127,0" concept="4" />
+      <node id="4560166870162687813" at="128,30,129,67" concept="3" />
+      <node id="4560166870162687813" at="129,67,130,65" concept="3" />
+      <node id="4560166870162687813" at="130,65,131,192" concept="1" />
+      <node id="4560166870162667009" at="134,79,135,0" concept="4" />
+      <node id="4560166870162667009" at="136,30,137,67" concept="3" />
+      <node id="4560166870162667009" at="137,67,138,65" concept="3" />
+      <node id="4560166870162667009" at="138,65,139,423" concept="1" />
+      <node id="1093001149131510331" at="146,0,147,0" concept="5" trace="name$MnvL" />
+      <node id="1093001149131510331" at="150,0,151,0" concept="5" trace="content$j5u6" />
+      <node id="1093001149131510331" at="29,0,31,0" concept="5" trace="ourParamCache" />
+      <node id="1093001149131510331" at="32,0,35,0" concept="0" trace="types_Test#()V" />
+      <node id="1093001149131510331" at="71,0,74,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4560166870162694632" at="36,0,40,0" concept="2" trace="test_myJavaTestCase#()V" />
+      <node id="4560166870162659904" at="40,0,44,0" concept="2" trace="test_ErrorMessagesCheck4560166870162659904#()V" />
+      <node id="1093001149131521712" at="44,0,48,0" concept="2" trace="test_NodeDuplicateNameOnVariableCheck1093001149131521712#()V" />
+      <node id="4560166870162648700" at="48,0,52,0" concept="2" trace="test_NodeErrorCheck4560166870162648700#()V" />
+      <node id="4560166870162652727" at="52,0,56,0" concept="2" trace="test_NodeOperationNotPermittedCheck4560166870162652727#()V" />
+      <node id="4560166870162675706" at="56,0,60,0" concept="2" trace="test_ErrorMessagesCheck4560166870162675706#()V" />
+      <node id="4560166870162687813" at="60,0,64,0" concept="2" trace="test_NodeTypeSystemCheck4560166870162687813#()V" />
+      <node id="4560166870162667009" at="64,0,68,0" concept="2" trace="test_ErrorMessagesCheck4560166870162667009#()V" />
+      <node id="4560166870162694632" at="80,9,84,9" concept="1" />
+      <node id="4560166870162694632" at="75,56,80,9" concept="1" />
+      <node id="4560166870162659904" at="87,0,92,9" concept="1" />
+      <node id="1093001149131521712" at="95,0,100,9" concept="1" />
+      <node id="4560166870162648700" at="103,0,108,9" concept="1" />
+      <node id="4560166870162652727" at="111,0,116,9" concept="1" />
+      <node id="4560166870162675706" at="119,0,124,9" concept="1" />
+      <node id="4560166870162687813" at="127,0,132,9" concept="1" />
+      <node id="4560166870162667009" at="135,0,140,9" concept="1" />
+      <node id="4560166870162659904" at="86,0,94,0" concept="2" trace="test_ErrorMessagesCheck4560166870162659904#()V" />
+      <node id="1093001149131521712" at="94,0,102,0" concept="2" trace="test_NodeDuplicateNameOnVariableCheck1093001149131521712#()V" />
+      <node id="4560166870162648700" at="102,0,110,0" concept="2" trace="test_NodeErrorCheck4560166870162648700#()V" />
+      <node id="4560166870162652727" at="110,0,118,0" concept="2" trace="test_NodeOperationNotPermittedCheck4560166870162652727#()V" />
+      <node id="4560166870162675706" at="118,0,126,0" concept="2" trace="test_ErrorMessagesCheck4560166870162675706#()V" />
+      <node id="4560166870162687813" at="126,0,134,0" concept="2" trace="test_NodeTypeSystemCheck4560166870162687813#()V" />
+      <node id="4560166870162667009" at="134,0,142,0" concept="2" trace="test_ErrorMessagesCheck4560166870162667009#()V" />
+      <node id="4560166870162694632" at="75,0,86,0" concept="2" trace="test_myJavaTestCase#()V" />
+      <scope id="1093001149131510331" at="32,23,33,25" />
+      <scope id="4560166870162694632" at="37,54,38,45" />
+      <scope id="4560166870162659904" at="41,77,42,68" />
+      <scope id="1093001149131521712" at="45,91,46,82" />
+      <scope id="4560166870162648700" at="49,73,50,64" />
+      <scope id="4560166870162652727" at="53,89,54,80" />
+      <scope id="4560166870162675706" at="57,77,58,68" />
+      <scope id="4560166870162687813" at="61,78,62,69" />
+      <scope id="4560166870162667009" at="65,77,66,68" />
+      <scope id="1093001149131510331" at="71,52,72,19" />
+      <scope id="4560166870162694632" at="81,30,83,147" />
+      <scope id="1093001149131510331" at="32,0,35,0" />
+      <scope id="1093001149131510331" at="71,0,74,0">
+        <var name="owner" id="1093001149131510331" />
+      </scope>
+      <scope id="4560166870162694632" at="76,30,79,43" />
+      <scope id="4560166870162659904" at="88,30,91,209">
+        <var name="nodeToCheck" id="4560166870162659904" />
+        <var name="operation" id="4560166870162659904" />
+      </scope>
+      <scope id="1093001149131521712" at="96,30,99,290">
+        <var name="nodeToCheck" id="1093001149131521712" />
+        <var name="operation" id="1093001149131521712" />
+      </scope>
+      <scope id="4560166870162648700" at="104,30,107,177">
+        <var name="nodeToCheck" id="4560166870162648700" />
+        <var name="operation" id="4560166870162648700" />
+      </scope>
+      <scope id="4560166870162652727" at="112,30,115,290">
+        <var name="nodeToCheck" id="4560166870162652727" />
+        <var name="operation" id="4560166870162652727" />
+      </scope>
+      <scope id="4560166870162675706" at="120,30,123,1016">
+        <var name="nodeToCheck" id="4560166870162675706" />
+        <var name="operation" id="4560166870162675706" />
+      </scope>
+      <scope id="4560166870162687813" at="128,30,131,192">
+        <var name="nodeToCheck" id="4560166870162687813" />
+        <var name="operation" id="4560166870162687813" />
+      </scope>
+      <scope id="4560166870162667009" at="136,30,139,423">
+        <var name="nodeToCheck" id="4560166870162667009" />
+        <var name="operation" id="4560166870162667009" />
+      </scope>
+      <scope id="4560166870162694632" at="36,0,40,0" />
+      <scope id="4560166870162659904" at="40,0,44,0" />
+      <scope id="1093001149131521712" at="44,0,48,0" />
+      <scope id="4560166870162648700" at="48,0,52,0" />
+      <scope id="4560166870162652727" at="52,0,56,0" />
+      <scope id="4560166870162675706" at="56,0,60,0" />
+      <scope id="4560166870162687813" at="60,0,64,0" />
+      <scope id="4560166870162667009" at="64,0,68,0" />
+      <scope id="4560166870162659904" at="86,79,92,9" />
+      <scope id="1093001149131521712" at="94,93,100,9" />
+      <scope id="4560166870162648700" at="102,75,108,9" />
+      <scope id="4560166870162652727" at="110,91,116,9" />
+      <scope id="4560166870162675706" at="118,79,124,9" />
+      <scope id="4560166870162687813" at="126,80,132,9" />
+      <scope id="4560166870162667009" at="134,79,140,9" />
+      <scope id="4560166870162659904" at="86,0,94,0" />
+      <scope id="1093001149131521712" at="94,0,102,0" />
+      <scope id="4560166870162648700" at="102,0,110,0" />
+      <scope id="4560166870162652727" at="110,0,118,0" />
+      <scope id="4560166870162675706" at="118,0,126,0" />
+      <scope id="4560166870162687813" at="126,0,134,0" />
+      <scope id="4560166870162667009" at="134,0,142,0" />
+      <scope id="4560166870162694632" at="75,56,84,9" />
+      <scope id="4560166870162694632" at="75,0,86,0" />
+      <unit id="1093001149131510331" at="145,0,148,0" name="mybasica.test.typesystem.types_Test$PROPS" />
+      <unit id="1093001149131510331" at="149,0,152,0" name="mybasica.test.typesystem.types_Test$LINKS" />
+      <unit id="1093001149131510331" at="69,0,144,0" name="mybasica.test.typesystem.types_Test$TestBody" />
+      <unit id="1093001149131510331" at="27,0,153,0" name="mybasica.test.typesystem.types_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d2add095-749f-4fbe-82d5-4923be229b2f(mybasica.test.typesystem@tests)/4560166870164714492">
+    <file name="TypingVarInEmptyLineWorks_Test.java">
+      <node id="4560166870164714492" at="18,43,19,25" concept="6" />
+      <node id="4560166870164714492" at="23,65,24,36" concept="1" />
+      <node id="4560166870164714492" at="29,52,30,19" concept="6" />
+      <node id="4560166870164714492" at="34,51,35,72" concept="1" />
+      <node id="4560166870165252315" at="35,72,36,24" concept="1" />
+      <node id="4560166870165493856" at="36,24,37,22" concept="1" />
+      <node id="4560166870164714492" at="15,0,17,0" concept="5" trace="ourParamCache" />
+      <node id="4560166870164714492" at="18,0,21,0" concept="0" trace="TypingVarInEmptyLineWorks_Test#()V" />
+      <node id="4560166870164714492" at="29,0,32,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4560166870164714492" at="22,0,26,0" concept="2" trace="test_TypingVarInEmptyLineWorks#()V" />
+      <node id="4560166870164714492" at="33,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="4560166870164714492" at="18,43,19,25" />
+      <scope id="4560166870164714492" at="23,65,24,36" />
+      <scope id="4560166870164714492" at="29,52,30,19" />
+      <scope id="4560166870164714492" at="18,0,21,0" />
+      <scope id="4560166870164714492" at="29,0,32,0">
+        <var name="owner" id="4560166870164714492" />
+      </scope>
+      <scope id="4560166870164714492" at="34,51,37,22" />
+      <scope id="4560166870164714492" at="22,0,26,0" />
+      <scope id="4560166870164714492" at="33,0,39,0" />
+      <unit id="4560166870164714492" at="27,0,40,0" name="mybasica.test.typesystem.TypingVarInEmptyLineWorks_Test$TestBody" />
+      <unit id="4560166870164714492" at="13,0,41,0" name="mybasica.test.typesystem.TypingVarInEmptyLineWorks_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d2add095-749f-4fbe-82d5-4923be229b2f(mybasica.test.typesystem@tests)/4560166870165509495">
+    <file name="PlusExpressionTransformationWorks_Test.java">
+      <node id="4560166870165509495" at="18,51,19,25" concept="6" />
+      <node id="4560166870165509495" at="23,73,24,36" concept="1" />
+      <node id="4560166870165509495" at="29,52,30,19" concept="6" />
+      <node id="4560166870165509495" at="34,51,35,72" concept="1" />
+      <node id="4560166870165691049" at="35,72,36,24" concept="1" />
+      <node id="4560166870165872212" at="36,24,37,0" concept="4" />
+      <node id="4560166870165509495" at="15,0,17,0" concept="5" trace="ourParamCache" />
+      <node id="4560166870165509495" at="18,0,21,0" concept="0" trace="PlusExpressionTransformationWorks_Test#()V" />
+      <node id="4560166870165509495" at="29,0,32,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4560166870165509495" at="22,0,26,0" concept="2" trace="test_PlusExpressionTransformationWorks#()V" />
+      <node id="4560166870165509495" at="33,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="4560166870165509495" at="18,51,19,25" />
+      <scope id="4560166870165509495" at="23,73,24,36" />
+      <scope id="4560166870165509495" at="29,52,30,19" />
+      <scope id="4560166870165509495" at="18,0,21,0" />
+      <scope id="4560166870165509495" at="29,0,32,0">
+        <var name="owner" id="4560166870165509495" />
+      </scope>
+      <scope id="4560166870165509495" at="34,51,37,0" />
+      <scope id="4560166870165509495" at="22,0,26,0" />
+      <scope id="4560166870165509495" at="33,0,39,0" />
+      <unit id="4560166870165509495" at="27,0,40,0" name="mybasica.test.typesystem.PlusExpressionTransformationWorks_Test$TestBody" />
+      <unit id="4560166870165509495" at="13,0,41,0" name="mybasica.test.typesystem.PlusExpressionTransformationWorks_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d2add095-749f-4fbe-82d5-4923be229b2f(mybasica.test.typesystem@tests)/4560166870165872560">
+    <file name="TypingIfOnEmptyLineWorks_Test.java">
+      <node id="4560166870165872560" at="18,42,19,25" concept="6" />
+      <node id="4560166870165872560" at="23,64,24,36" concept="1" />
+      <node id="4560166870165872560" at="29,52,30,19" concept="6" />
+      <node id="4560166870165872560" at="34,51,35,72" concept="1" />
+      <node id="4560166870165872620" at="35,72,36,23" concept="1" />
+      <node id="4560166870165872560" at="15,0,17,0" concept="5" trace="ourParamCache" />
+      <node id="4560166870165872560" at="18,0,21,0" concept="0" trace="TypingIfOnEmptyLineWorks_Test#()V" />
+      <node id="4560166870165872560" at="29,0,32,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4560166870165872560" at="22,0,26,0" concept="2" trace="test_TypingIfOnEmptyLineWorks#()V" />
+      <node id="4560166870165872560" at="33,0,38,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="4560166870165872560" at="18,42,19,25" />
+      <scope id="4560166870165872560" at="23,64,24,36" />
+      <scope id="4560166870165872560" at="29,52,30,19" />
+      <scope id="4560166870165872560" at="34,51,36,23" />
+      <scope id="4560166870165872560" at="18,0,21,0" />
+      <scope id="4560166870165872560" at="29,0,32,0">
+        <var name="owner" id="4560166870165872560" />
+      </scope>
+      <scope id="4560166870165872560" at="22,0,26,0" />
+      <scope id="4560166870165872560" at="33,0,38,0" />
+      <unit id="4560166870165872560" at="27,0,39,0" name="mybasica.test.typesystem.TypingIfOnEmptyLineWorks_Test$TestBody" />
+      <unit id="4560166870165872560" at="13,0,40,0" name="mybasica.test.typesystem.TypingIfOnEmptyLineWorks_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d2add095-749f-4fbe-82d5-4923be229b2f(mybasica.test.typesystem@tests)/4560166870167093751">
+    <file name="AddTypeIntentionIsAvailable_Test.java">
+      <node id="4560166870167093751" at="19,45,20,25" concept="6" />
+      <node id="4560166870167093751" at="24,67,25,36" concept="1" />
+      <node id="4560166870167093751" at="30,52,31,19" concept="6" />
+      <node id="4560166870167093751" at="35,51,36,72" concept="1" />
+      <node id="4560166870167094989" at="36,72,37,117" concept="1" />
+      <node id="4560166870167093751" at="16,0,18,0" concept="5" trace="ourParamCache" />
+      <node id="4560166870167093751" at="19,0,22,0" concept="0" trace="AddTypeIntentionIsAvailable_Test#()V" />
+      <node id="4560166870167093751" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4560166870167093751" at="23,0,27,0" concept="2" trace="test_AddTypeIntentionIsAvailable#()V" />
+      <node id="4560166870167093751" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="4560166870167093751" at="19,45,20,25" />
+      <scope id="4560166870167093751" at="24,67,25,36" />
+      <scope id="4560166870167093751" at="30,52,31,19" />
+      <scope id="4560166870167093751" at="35,51,37,117" />
+      <scope id="4560166870167093751" at="19,0,22,0" />
+      <scope id="4560166870167093751" at="30,0,33,0">
+        <var name="owner" id="4560166870167093751" />
+      </scope>
+      <scope id="4560166870167093751" at="23,0,27,0" />
+      <scope id="4560166870167093751" at="34,0,39,0" />
+      <unit id="4560166870167093751" at="28,0,40,0" name="mybasica.test.typesystem.AddTypeIntentionIsAvailable_Test$TestBody" />
+      <unit id="4560166870167093751" at="14,0,41,0" name="mybasica.test.typesystem.AddTypeIntentionIsAvailable_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d2add095-749f-4fbe-82d5-4923be229b2f(mybasica.test.typesystem@tests)/4560166870167276167">
+    <file name="AddTypeIntentionIdAvailableOnInit_Test.java">
+      <node id="4560166870167276167" at="19,51,20,25" concept="6" />
+      <node id="4560166870167276167" at="24,73,25,36" concept="1" />
+      <node id="4560166870167276167" at="30,52,31,19" concept="6" />
+      <node id="4560166870167276167" at="35,51,36,53" concept="1" />
+      <node id="4560166870167276350" at="36,53,37,117" concept="1" />
+      <node id="4560166870167276167" at="16,0,18,0" concept="5" trace="ourParamCache" />
+      <node id="4560166870167276167" at="19,0,22,0" concept="0" trace="AddTypeIntentionIdAvailableOnInit_Test#()V" />
+      <node id="4560166870167276167" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4560166870167276167" at="23,0,27,0" concept="2" trace="test_AddTypeIntentionIdAvailableOnInit#()V" />
+      <node id="4560166870167276167" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="4560166870167276167" at="19,51,20,25" />
+      <scope id="4560166870167276167" at="24,73,25,36" />
+      <scope id="4560166870167276167" at="30,52,31,19" />
+      <scope id="4560166870167276167" at="35,51,37,117" />
+      <scope id="4560166870167276167" at="19,0,22,0" />
+      <scope id="4560166870167276167" at="30,0,33,0">
+        <var name="owner" id="4560166870167276167" />
+      </scope>
+      <scope id="4560166870167276167" at="23,0,27,0" />
+      <scope id="4560166870167276167" at="34,0,39,0" />
+      <unit id="4560166870167276167" at="28,0,40,0" name="mybasica.test.typesystem.AddTypeIntentionIdAvailableOnInit_Test$TestBody" />
+      <unit id="4560166870167276167" at="14,0,41,0" name="mybasica.test.typesystem.AddTypeIntentionIdAvailableOnInit_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d2add095-749f-4fbe-82d5-4923be229b2f(mybasica.test.typesystem@tests)/4560166870167458176">
+    <file name="AddTypeIntentionWorks_Test.java">
+      <node id="4560166870167458176" at="18,39,19,25" concept="6" />
+      <node id="4560166870167458176" at="23,61,24,36" concept="1" />
+      <node id="4560166870167458176" at="29,52,30,19" concept="6" />
+      <node id="4560166870167458176" at="34,51,35,72" concept="1" />
+      <node id="4560166870167978903" at="35,72,36,92" concept="1" />
+      <node id="4560166870167458176" at="15,0,17,0" concept="5" trace="ourParamCache" />
+      <node id="4560166870167458176" at="18,0,21,0" concept="0" trace="AddTypeIntentionWorks_Test#()V" />
+      <node id="4560166870167458176" at="29,0,32,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4560166870167458176" at="22,0,26,0" concept="2" trace="test_AddTypeIntentionWorks#()V" />
+      <node id="4560166870167458176" at="33,0,38,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="4560166870167458176" at="18,39,19,25" />
+      <scope id="4560166870167458176" at="23,61,24,36" />
+      <scope id="4560166870167458176" at="29,52,30,19" />
+      <scope id="4560166870167458176" at="34,51,36,92" />
+      <scope id="4560166870167458176" at="18,0,21,0" />
+      <scope id="4560166870167458176" at="29,0,32,0">
+        <var name="owner" id="4560166870167458176" />
+      </scope>
+      <scope id="4560166870167458176" at="22,0,26,0" />
+      <scope id="4560166870167458176" at="33,0,38,0" />
+      <unit id="4560166870167458176" at="27,0,39,0" name="mybasica.test.typesystem.AddTypeIntentionWorks_Test$TestBody" />
+      <unit id="4560166870167458176" at="13,0,40,0" name="mybasica.test.typesystem.AddTypeIntentionWorks_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:d2add095-749f-4fbe-82d5-4923be229b2f(mybasica.test.typesystem@tests)/7465687649711788541">
+    <file name="AddScpecificTypeWorks_Test.java">
+      <node id="7465687649711788541" at="20,39,21,25" concept="6" />
+      <node id="7465687649711788541" at="25,61,26,36" concept="1" />
+      <node id="7465687649711788541" at="31,52,32,19" concept="6" />
+      <node id="7465687649711788541" at="36,51,37,72" concept="1" />
+      <node id="7465687649711788784" at="37,72,38,129" concept="1" />
+      <node id="7465687649711788541" at="43,0,44,0" concept="5" trace="BIntegerType$dw" />
+      <node id="7465687649711788541" at="17,0,19,0" concept="5" trace="ourParamCache" />
+      <node id="7465687649711788541" at="20,0,23,0" concept="0" trace="AddScpecificTypeWorks_Test#()V" />
+      <node id="7465687649711788541" at="31,0,34,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7465687649711788541" at="24,0,28,0" concept="2" trace="test_AddScpecificTypeWorks#()V" />
+      <node id="7465687649711788541" at="35,0,40,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="7465687649711788541" at="20,39,21,25" />
+      <scope id="7465687649711788541" at="25,61,26,36" />
+      <scope id="7465687649711788541" at="31,52,32,19" />
+      <scope id="7465687649711788541" at="36,51,38,129" />
+      <scope id="7465687649711788541" at="20,0,23,0" />
+      <scope id="7465687649711788541" at="31,0,34,0">
+        <var name="owner" id="7465687649711788541" />
+      </scope>
+      <scope id="7465687649711788541" at="24,0,28,0" />
+      <scope id="7465687649711788541" at="35,0,40,0" />
+      <unit id="7465687649711788541" at="42,0,45,0" name="mybasica.test.typesystem.AddScpecificTypeWorks_Test$CONCEPTS" />
+      <unit id="7465687649711788541" at="29,0,41,0" name="mybasica.test.typesystem.AddScpecificTypeWorks_Test$TestBody" />
+      <unit id="7465687649711788541" at="15,0,46,0" name="mybasica.test.typesystem.AddScpecificTypeWorks_Test" />
+    </file>
+  </root>
+</debug-info>
+

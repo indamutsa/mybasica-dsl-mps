@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:a391da1f-ae87-4eca-a867-0eaadc3c5823(javalang.example.model)/1233878956111477696">
+    <file name="MyClass.java">
+      <node id="1233878956111478095" at="7,42,8,15" concept="0" />
+      <node id="1233878956111477734" at="7,0,10,0" concept="1" trace="main#([Ljava/lang/String;)V" />
+      <scope id="1233878956111477740" at="7,42,8,15">
+        <var name="z" id="1233878956111478098" />
+      </scope>
+      <scope id="1233878956111477734" at="7,0,10,0">
+        <var name="args" id="1233878956111477735" />
+      </scope>
+      <unit id="1233878956111477696" at="6,0,11,0" name="javalang.example.model.MyClass" />
+    </file>
+  </root>
+</debug-info>
+
